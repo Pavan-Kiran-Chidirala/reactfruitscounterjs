@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.main-holder {
+  height: 100%;
+  background-color: #ffd569;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.sub-holder {
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5%;
+}
+.main-heading {
+  font-size: 40px;
+}
+.yellow {
+  color: #ffd569;
+}
+.fruits-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fruit-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.image {
+  width: 250px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  font-size: small;
+  border-style: none;
+  border-width: 0px;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+}
